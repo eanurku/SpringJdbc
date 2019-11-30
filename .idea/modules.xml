@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JdbcConnection/JdbcConnection.iml" filepath="$PROJECT_DIR$/JdbcConnection/JdbcConnection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MvcAppWithJdbc/MvcAppWithJdbc.iml" filepath="$PROJECT_DIR$/MvcAppWithJdbc/MvcAppWithJdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlainJdbcConnection/PlainJdbcConnection.iml" filepath="$PROJECT_DIR$/PlainJdbcConnection/PlainJdbcConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestAppWithJdbc/RestAppWithJdbc.iml" filepath="$PROJECT_DIR$/RestAppWithJdbc/RestAppWithJdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJdbc.iml" filepath="$PROJECT_DIR$/SpringJdbc.iml" />
     </modules>
   </component>
