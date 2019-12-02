@@ -67,7 +67,7 @@
 
     </target>
 
-    <!-- run below target by command: ant run -DmainClassPath=com.resultset.JdbcResultSetInsertRow -->
+    <!-- run mainclass with command: ant run -DmainClassPath=com.resultset.JdbcResultSetInsertRow -->
     <target name="run" depends="unitTest">
 
         <java classname="${mainclass}" classpathref="build-classpath">

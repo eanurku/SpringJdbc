@@ -1,6 +1,5 @@
 package com.streaming;
 
-import sun.reflect.annotation.ExceptionProxy;
 
 import java.io.*;
 import java.sql.*;
@@ -25,8 +24,8 @@ public class JdbcPrepareStmtHandlesLargeData {
 
 
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root");
-        createTableForData(conn);
-        System.out.println("table created=");
+        int val=createTableForData(conn);
+        System.out.println("table created="+val);
 
 
                 PreparedStatement pstmt = conn.prepareStatement("insert into DataTable set id=?,data=?");
@@ -50,21 +49,21 @@ public class JdbcPrepareStmtHandlesLargeData {
 
     }
 
-    static boolean createTableForData(Connection conn) throws SQLException {
+    static int createTableForData(Connection conn) throws SQLException {
         Statement stmt = conn.createStatement();
 
         String createsql = "create table DataTable(id int,data LONG)";
         String droptable = "drop table DataTable ";
 
         try {
-            stmt.execute(droptable);
+            stmt.executeUpdate(droptable);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
 
-        boolean val = stmt.execute(createsql);
+        int val = stmt.executeUpdate(createsql);
 
         return val;
 

@@ -1,4 +1,4 @@
-package com.updatequery;
+package com.jdbctemplate.updatequery;
 
 import com.dao.Student;
 import com.dao.StudentJdbcTemplate;
@@ -26,6 +26,16 @@ public class UpdateStudentsDemo {
         System.out.println("update count="+studentjdbcTemplate.batchUpdateStudents(listofstudents).length);
 
         //ex 3
+        List<Student> listofstudents2=new ArrayList<>();
+        listofstudents2.add(new Student("sx11",9899L,250));
+        listofstudents2.add(new Student("sx22",9799L,253));
+        listofstudents2.add(new Student("sx33",9699L,255));
+
+        int count[][]=studentjdbcTemplate.restrictedBatchSizedUpdateStudents(listofstudents2,2);
+
+        System.out.println(count.length);
+
+        //ex 4
         List<Student> listofstudents1=new ArrayList<>();
         listofstudents1.add(new Student("sx11",98L,250));
         listofstudents1.add(new Student("sx22",97L,253));
@@ -33,14 +43,6 @@ public class UpdateStudentsDemo {
 
         System.out.println("update count="+studentjdbcTemplate.objectBatchUpdateStudents(listofstudents1).length);
 
-        //ex 4
-        List<Student> listofstudents2=new ArrayList<>();
-        listofstudents2.add(new Student("sx11",9899L,250));
-        listofstudents2.add(new Student("sx22",9799L,253));
-        listofstudents2.add(new Student("sx33",9699L,255));
 
-        int count[][]=studentjdbcTemplate.restrictedBatchSizedUpdateStudents(listofstudents2);
-
-        System.out.println(count.length);
     }
 }

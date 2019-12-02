@@ -1,10 +1,11 @@
-package com.selectquery;
+package com.jdbctemplate.updatequery;
 
+import com.dao.Student;
 import com.dao.StudentJdbcTemplate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class GetStudentsDemo {
+public class SpringJdbcUpdateRow {
 
     public static void main(String[] args) {
 
@@ -12,15 +13,8 @@ public class GetStudentsDemo {
         StudentJdbcTemplate studentjdbcTemplate = context.getBean("studentJdbcTemplate", StudentJdbcTemplate.class);
 
 
-        //ex 1
-        System.out.println( studentjdbcTemplate.getStudents());
+        int count=studentjdbcTemplate.updateStudent(new Student("yname1",9898L,271));
 
-        //ex 2
-        System.out.println(studentjdbcTemplate.getStudent(1));
-
-
-
+        System.out.println("update count:"+count);
     }
-    
-
 }

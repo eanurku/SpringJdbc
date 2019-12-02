@@ -29,7 +29,7 @@ public class StudentRestControllerWithJdbcTemplate {
     @RequestMapping(value = "/getStudents", method = RequestMethod.GET)
     public List<Student> getStudents() {
 
-        return studentJdbcTemplate.getStudents();
+        return studentJdbcTemplate.getAllStudents();
     }
 
 

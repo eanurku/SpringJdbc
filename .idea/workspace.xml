@@ -5,131 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518b148e-33c5-4f44-a07c-8064aaa9e022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/PlainJdbcConnection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/lib-dev/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/reference.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckIfDriverSupportBatchProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcPrepareStmtBatchProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcStatementBatchProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINAndOUTparams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINOUTParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcedureWithMultipleINAndOUTParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithInParamOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithoutAnyParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByClassForName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByRegisteringDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionWithErrorHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStementReuse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetDeleteRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetInsertRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetUpdateRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteForDDL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/out.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/sampletest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/JdbcConnectionAutoCommitFalse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/datasource/SpringJdbcDataSourceSetup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/references.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentNamedParameterTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/datasource/setup/SpringJdbcDataSourceSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsertByBatchPreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetAllRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/setup/SpringJdbcTemplateSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByBatchPreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/setup/SpringJdbcNamedParameterJdbcTemplateSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/updatequery/SpringJdbcBatchUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/JdbcConnection.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/dist/classes/com/Demo6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/lib-dev/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcConnection/src/main/java/com/Demo6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/MvcAppWithJdbc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/MvcAppWithJdbc.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/MainDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithJdbcTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithPlainJdbc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/dao/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/insertquery/InsertStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/selectquery/GetStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/classes/com/updatequery/UpdateStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/dist/test/com/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib-dev/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib-dev/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/jackson-annotations-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/jackson-dataformat-xml-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/jackson-module-jaxb-annotations-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-aop-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-aop-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-beans-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-beans-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-context-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-context-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-core-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-core-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-expression-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-expression-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jcl-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jcl-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-tx-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-tx-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-web-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-web-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-webmvc-5.1.9.RELEASE-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-webmvc-5.1.9.RELEASE-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/lib/woodstox-core-5.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/MainDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithPlainJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/dao/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/dao/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/dao/StudentDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/dao/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/insertquery/InsertStudentsDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/selectquery/GetStudentsDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/storeprocedure/SimpleJdbcCallDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/java/com/updatequery/UpdateStudentsDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/main/webapp/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/src/test/java/com/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcAppWithJdbc/tomcat/tomcat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/RestAppWithJdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/RestAppWithJdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/MvcAppWithJdbc.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/MainDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithJdbcTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/selectquery/GetStudentsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/selectquery/GetStudentsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/updatequery/UpdateStudentsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/updatequery/UpdateStudentsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/MainDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/insertquery/InsertStudentsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/selectquery/GetStudentsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/storeprocedure/SimpleJdbcCallDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/storeprocedure/SimpleJdbcCallDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/updatequery/UpdateStudentsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/UpdateStudentsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,6 +57,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="15" />
+          <entry key="project.open.time.124" value="1" />
           <entry key="project.open.time.128" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -159,41 +74,42 @@
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="54" />
-          <entry key="java" value="255" />
-          <entry key="md" value="16" />
+          <entry key="class" value="56" />
+          <entry key="java" value="373" />
+          <entry key="md" value="20" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="47" />
+          <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="54" />
-          <entry key="JAVA" value="255" />
-          <entry key="Markdown" value="16" />
+          <entry key="CLASS" value="56" />
+          <entry key="JAVA" value="373" />
+          <entry key="Markdown" value="20" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="47" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="428" />
-          <entry key="java" value="16792" />
-          <entry key="md" value="293" />
-          <entry key="xml" value="282" />
+          <entry key="dummy" value="501" />
+          <entry key="java" value="19523" />
+          <entry key="md" value="454" />
+          <entry key="xml" value="600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16792" />
-          <entry key="Markdown" value="293" />
-          <entry key="PLAIN_TEXT" value="428" />
-          <entry key="XML" value="282" />
+          <entry key="JAVA" value="19523" />
+          <entry key="Markdown" value="454" />
+          <entry key="PLAIN_TEXT" value="501" />
+          <entry key="XML" value="600" />
         </counts>
       </usages-collector>
     </session>
@@ -233,45 +149,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcSelectQuery.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcStatementMethods.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcPrepareStement.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcStorePeocedure.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcStoreProcWithoutRegisteringOutParam.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/Demo5.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcStoreProcWithoutInAndOutParams.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcStoreProcWithInAndOutParams.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/Demo.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/JdbcResultSetInsertRow.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetInsertRow.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetDeleteRow.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/Demo.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/Demo1.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionByUsingClassForNameMethod.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByUsingClassForNameMethod.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByRegisteringDriver.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByClassForName.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcSelectQuery.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteQuery.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionWithErrorHandling.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementMethods.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteForDDL.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteUpdate.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStement.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStementReuse.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStatement.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetUpdateRow.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcedureWithInAndOutParams.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/demo.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithInAndOutparams.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcedureWithMultipleInAndOutParams.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithInOutParam.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithInParamOnly.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINOUTParam.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINAndOUTparams.java" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/Demo.java" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/JdbcConnectionAutoCommitFalse.java" />
-        <option value="$PROJECT_DIR$/PlainJdbcConnection/build.xml" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/readme.md" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckifBatchProcessingSupported.java" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckifDriverSupportBatchProcessing.java" />
@@ -284,8 +163,51 @@
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/sampletest.xml" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/out.xml" />
         <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" />
+        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcCreateDatabase.java" />
+        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcCreateTable.java" />
+        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateDatabase.java" />
+        <option value="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateTable.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/references.md" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/updatequery/UpdateStudentsDemo.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/selectquery/SpringJdbcGetAllStudents.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/selectquery/GetStudentsDemo.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/Readme.md" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/build.xml" />
+        <option value="$PROJECT_DIR$/PlainJdbcConnection/build.xml" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/datasource/SpringJdbcDataSourceSetup.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/SpringJdbcTemplateSetup.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetStudent.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/Student.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcAddStudent.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/datasource/setup/SpringJdbcDataSourceSetup.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcAddStudents.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertARow.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRow.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsert.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetRow.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsertByBatchPreparedStatementSetter.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRow.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRows.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByBatchPreparedStatementSetter.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/storeprocedure/SimpleJdbcCallDemo.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/SpringJdbcNamedParameterJdbcTemplateSetup.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/SpringJdbcBatchUpdate.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/updatequery/SpringJdbcBatchUpdate.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/UpdateStudentsDemo.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentNamedParameterTemplate.java" />
+        <option value="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="71" />
@@ -298,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,25 +227,16 @@
               <item name="SpringJdbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringJdbc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringJdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringJdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="PlainJdbcConnection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringJdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringJdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="PlainJdbcConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575139128132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575255870452" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MvcAppWithJdbc/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -359,13 +270,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcPrepareStmtHandlesLargeData">
-    <configuration name="JdbcPrepareStmtHandlesLargeData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.streaming.JdbcPrepareStmtHandlesLargeData" />
-      <module name="PlainJdbcConnection" />
+  <component name="RunManager" selected="Application.SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter">
+    <configuration name="SpringJdbcBatchUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.namedparameterjdbctemplate.updatequery.SpringJdbcBatchUpdate" />
+      <module name="RestAppWithJdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.streaming.*" />
+          <option name="PATTERN" value="com.namedparameterjdbctemplate.setup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcProcWithINAndOUTparams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.callablestatement.JdbcProcWithINAndOUTparams" />
-      <module name="PlainJdbcConnection" />
+    <configuration name="SpringJdbcBatchUpdateByBatchPreparedStatementSetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbctemplate.updatequery.SpringJdbcBatchUpdateByBatchPreparedStatementSetter" />
+      <module name="RestAppWithJdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.callablestatement.*" />
+          <option name="PATTERN" value="com.jdbctemplate.updatequery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcProcWithINOUTParam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.callablestatement.JdbcProcWithINOUTParam" />
-      <module name="PlainJdbcConnection" />
+    <configuration name="SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbctemplate.updatequery.SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter" />
+      <module name="RestAppWithJdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.callablestatement.*" />
+          <option name="PATTERN" value="com.jdbctemplate.updatequery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcProcedureWithMultipleINAndOUTParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.callablestatement.JdbcProcedureWithMultipleINAndOUTParams" />
-      <module name="PlainJdbcConnection" />
+    <configuration name="SpringJdbcNamedParameterJdbcTemplateSetup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.namedparameterjdbctemplate.setup.SpringJdbcNamedParameterJdbcTemplateSetup" />
+      <module name="RestAppWithJdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.callablestatement.*" />
+          <option name="PATTERN" value="com.namedparameterjdbctemplate.setup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcStoreProcWithoutAnyParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.callablestatement.JdbcStoreProcWithoutAnyParams" />
-      <module name="PlainJdbcConnection" />
+    <configuration name="SpringJdbcUpdateRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbctemplate.updatequery.SpringJdbcUpdateRows" />
+      <module name="RestAppWithJdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.callablestatement.*" />
+          <option name="PATTERN" value="com.jdbctemplate.updatequery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JdbcStoreProcWithoutAnyParams" />
-      <item itemvalue="Application.JdbcProcWithINOUTParam" />
-      <item itemvalue="Application.JdbcProcWithINAndOUTparams" />
-      <item itemvalue="Application.JdbcProcedureWithMultipleINAndOUTParams" />
-      <item itemvalue="Application.JdbcPrepareStmtHandlesLargeData" />
+      <item itemvalue="Application.SpringJdbcUpdateRows" />
+      <item itemvalue="Application.SpringJdbcBatchUpdateByBatchPreparedStatementSetter" />
+      <item itemvalue="Application.SpringJdbcNamedParameterJdbcTemplateSetup" />
+      <item itemvalue="Application.SpringJdbcBatchUpdate" />
+      <item itemvalue="Application.SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JdbcPrepareStmtHandlesLargeData" />
-        <item itemvalue="Application.JdbcStoreProcWithoutAnyParams" />
-        <item itemvalue="Application.JdbcProcedureWithMultipleINAndOUTParams" />
-        <item itemvalue="Application.JdbcProcWithINAndOUTparams" />
-        <item itemvalue="Application.JdbcProcWithINOUTParam" />
+        <item itemvalue="Application.SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter" />
+        <item itemvalue="Application.SpringJdbcBatchUpdate" />
+        <item itemvalue="Application.SpringJdbcNamedParameterJdbcTemplateSetup" />
+        <item itemvalue="Application.SpringJdbcBatchUpdateByBatchPreparedStatementSetter" />
+        <item itemvalue="Application.SpringJdbcUpdateRows" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +369,7 @@
   <component name="ToolWindowManager">
     <frame x="71" y="25" width="1849" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.23111111" visible="true" weight="0.31724903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.23111111" visible="true" weight="0.25513035" />
       <window_info id="Structure" order="1" sideWeight="0.7688889" side_tool="true" weight="0.30005547" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,12 +378,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997227" visible="true" weight="0.34555554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997227" weight="0.38333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997227" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997227" weight="0.45444444" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50027734" side_tool="true" weight="0.33702883" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3288889" />
@@ -483,10 +394,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3294509" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.23111111" visible="true" weight="0.31336662" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.23111111" visible="true" weight="0.25513035" />
       <window_info id="Structure" order="1" sideWeight="0.7688889" side_tool="true" weight="0.30005547" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,12 +406,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997227" visible="true" weight="0.5288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997227" visible="true" weight="0.38333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997227" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997227" weight="0.45444444" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50027734" side_tool="true" weight="0.33702883" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3288889" />
@@ -511,339 +422,17 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3294509" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentMapper.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/updatequery/UpdateStudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/insertquery/InsertStudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/storeprocedure/SimpleJdbcCallDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/selectquery/GetStudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/MainDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/result/ResultSetInternalMethods.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/result/UpdatableResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="703" selection-start-line="703" selection-end-line="703" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="1368" column="9" selection-start-line="1368" selection-start-column="9" selection-end-line="1368" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="439" column="29" selection-start-line="439" selection-start-column="29" selection-end-line="439" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/sql/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="407" column="63" lean-forward="true" selection-start-line="407" selection-start-column="63" selection-end-line="407" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithInAndOutParams.java" />
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStorePeocedure.java" />
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByRegisteringDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByClassForName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionWithErrorHandling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/statement/JdbcStatementExecuteQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="88" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStementReuse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetDeleteRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/sql/ResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetUpdateRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetInsertRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/PlainJdbcConnection/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/JdbcConnectionAutoCommitFalse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/mysql-connector-java-8.0.18.jar!/com/mysql/cj/jdbc/StatementImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-883">
-          <caret line="631" column="21" selection-start-line="631" selection-start-column="21" selection-end-line="631" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/sql/Statement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckIfDriverSupportBatchProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/preparestatement/JdbcPrepareStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcStatementBatchProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcPrepareStmtBatchProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/reference.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithInParamOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINOUTParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcWithINAndOUTparams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcProcedureWithMultipleINAndOUTParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/callablestatement/JdbcStoreProcWithoutAnyParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
-          <folding>
-            <element signature="e#5533#5534#0" expanded="true" />
-            <element signature="e#5565#5566#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,13 +481,331 @@
     <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/out.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckIfDriverSupportBatchProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="435">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcStatementBatchProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcPrepareStmtBatchProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/references.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/MainDemo.java" />
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithPlainJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithJdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlainJdbcConnection/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="65" column="55" lean-forward="true" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/sql/DataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/InsertStudentsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/datasource/setup/SpringJdbcDataSourceSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetAllRows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/selectquery/SpringJdbcGetRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/setup/SpringJdbcTemplateSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/storeprocedure/SimpleJdbcCallDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RestAppWithJdbc/lib/spring-jdbc-5.1.9.RELEASE-sources.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="67" column="74" lean-forward="true" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsertByBatchPreparedStatementSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcUpdateRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/setup/SpringJdbcNamedParameterJdbcTemplateSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/updatequery/SpringJdbcBatchUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByBatchPreparedStatementSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/UpdateStudentsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="33" column="94" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentNamedParameterTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/updatequery/SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -954,11 +861,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MvcAppWithJdbc</last-edited>
+          <last-edited>RestAppWithJdbc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

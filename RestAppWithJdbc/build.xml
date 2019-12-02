@@ -79,6 +79,21 @@
     </target>
 
 
+    <!-- run mainclass with command: ant run -Dmainclass=com.jdbctemplate.selectquery.SpringJdbcGetAllStudent -->
+
+    <target name="run" depends="unitTest">
+        <java classname="${mainclass}"  >
+
+            <classpath >
+                <path refid="build-classpath"/>
+                <pathelement location="${webapp.dir}"/>
+
+            </classpath>
+
+        </java>
+    </target>
+
+
 
 
     <!--tomcat tasks for deployment of war directly-->

@@ -35,7 +35,8 @@ public class StudentJdbcTemplate implements StudentDAO {
         return jdbctemplateObj;
     }
 
-    public List<Student> getStudents() {
+
+    public List<Student> getAllStudents() {
 
         String SQL = "select * from student";
         List<Student> list = jdbctemplateObj.query(SQL, new StudentMapper());
@@ -105,6 +106,18 @@ public class StudentJdbcTemplate implements StudentDAO {
         return count;
     }
 
+    @Override
+    public int updateStudents(List<Student> students) {
+
+        int count = 0;
+        String SQL_UPDATE = "update student set name=?,contact=? where id=?";
+
+        for(Student student:students)
+        count += jdbctemplateObj.update(SQL_UPDATE, student.getSname(), student.getScontact(), student.getSid());
+
+        return count;
+    }
+
     /*
        batch update by jdbcTemplate ,BatchPreparedStatementSetter
      */
@@ -129,33 +142,16 @@ public class StudentJdbcTemplate implements StudentDAO {
         });
         return count;
     }
-
-    /*
-      batch update by NamedParameterJdbcTemplate,SqlParameterSource
-     */
-    @Override
-    public int[] objectBatchUpdateStudents(List<Student> students) {
-
-
-        String SQL = "update student set name=:sname,contact=:scontact where id=:sid";
-        SqlParameterSource[] batch = SqlParameterSourceUtils.createBatch(students.toArray());
-
-        NamedParameterJdbcTemplate namedJdbcTemplate = new NamedParameterJdbcTemplate(datasourceobj);
-        int[] count = namedJdbcTemplate.batchUpdate(SQL, batch);
-        return count;
-    }
-
     /*
       batch update by jdbcTemplate,ParameterizedPreparedStatementSetter
       restriction on batch size
      */
 
-    public int[][] restrictedBatchSizedUpdateStudents(List<Student> studentList){
+    public int[][] restrictedBatchSizedUpdateStudents(List<Student> studentList,int batchSize){
 
         String SQL="update student set name=?,contact=? where id=?";
-        int BATCH_SIZE=2;
 
-        int updateCount[][]=jdbctemplateObj.batchUpdate(SQL, studentList, BATCH_SIZE, new ParameterizedPreparedStatementSetter<Student>() {
+        int updateCount[][]=jdbctemplateObj.batchUpdate(SQL, studentList, batchSize, new ParameterizedPreparedStatementSetter<Student>() {
             @Override
             public void setValues(PreparedStatement ps, Student argument) throws SQLException {
 
@@ -168,7 +164,6 @@ public class StudentJdbcTemplate implements StudentDAO {
         return updateCount;
     }
 
-
     @Override
     public Map<String, Object> callProcedure(String proc, Map<String, Object> inputParams) {
 
@@ -178,8 +173,10 @@ public class StudentJdbcTemplate implements StudentDAO {
         return out;
     }
 
-
-
+    @Override
+    public int[] objectBatchUpdateStudents(List<Student> students) {
+        return new int[0];
+    }
 
 
 }
