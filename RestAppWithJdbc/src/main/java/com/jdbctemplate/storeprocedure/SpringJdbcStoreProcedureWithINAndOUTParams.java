@@ -5,9 +5,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class SimpleJdbcCallDemo {
+public class SpringJdbcStoreProcedureWithINAndOUTParams {
 
     public static void main(String[] args) {
 
@@ -24,6 +25,10 @@ public class SimpleJdbcCallDemo {
 
         System.out.println("sum="+out.get("sum"));
         System.out.println("prod="+out.get("prod"));
+
+
+
+
 
 
 

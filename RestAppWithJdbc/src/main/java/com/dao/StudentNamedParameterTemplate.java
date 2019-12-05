@@ -66,6 +66,22 @@ public class StudentNamedParameterTemplate implements StudentDAO {
     }
 
     @Override
+    public int[][] multipleBatchesAddStudents(List<Student> studentList, int batchSize) {
+        return new int[0][];
+    }
+
+
+    @Override
+    public int[] objectBatchAddStudents(List<Student> students) {
+
+        String SQL_INSERT="insert into student set name=:sname,contact=:scontact";
+        SqlParameterSource[] batch = SqlParameterSourceUtils.createBatch(students.toArray());
+        int[] count = namedParameterJdbcTemplate.batchUpdate(SQL_INSERT, batch);
+
+        return count;
+    }
+
+    @Override
     public int updateStudent(Student student) {
         return 0;
     }
@@ -81,7 +97,7 @@ public class StudentNamedParameterTemplate implements StudentDAO {
     }
 
     @Override
-    public int[][] restrictedBatchSizedUpdateStudents(List<Student> studentList, int batchSize) {
+    public int[][] multipleBatchesUpdateStudents(List<Student> studentList, int batchSize) {
         return new int[0][];
     }
 
@@ -102,6 +118,11 @@ public class StudentNamedParameterTemplate implements StudentDAO {
 
         int[] count = namedParameterJdbcTemplate.batchUpdate(SQL, batch);
         return count;
+    }
+
+    @Override
+    public int deleteStudent(int studentId) {
+        return 0;
     }
 
 }

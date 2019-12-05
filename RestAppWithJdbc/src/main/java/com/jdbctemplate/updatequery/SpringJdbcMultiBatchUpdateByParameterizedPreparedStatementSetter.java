@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter {
+public class SpringJdbcMultiBatchUpdateByParameterizedPreparedStatementSetter {
     public static void main(String[] args) {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-dispatch-servlet.xml");
@@ -20,7 +20,7 @@ public class SpringJdbcBatchUpdateByParameterizedPreparedStatementSetter {
         list.add(new Student("yname5", 5432L, 272));
         list.add(new Student("yname5", 5432L, 273));
 
-        int[][] count = studentjdbcTemplate.restrictedBatchSizedUpdateStudents(list,2);
+        int[][] count = studentjdbcTemplate.multipleBatchesUpdateStudents(list,2);
 
         System.out.println("update count:");
         for(int i=0;i< count.length;i++){

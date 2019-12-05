@@ -96,6 +96,31 @@ public class StudentJdbcTemplate implements StudentDAO {
 
     }
 
+    /*
+    batch insert with JdbcTemplate, ParameterizedPreparedStatementSetter
+     */
+    @Override
+    public int[][] multipleBatchesAddStudents(List<Student> studentList, int batchSize) {
+
+        String SQL_INSERT="insert into student  set name=?,contact=?";
+
+        int[][] count = jdbctemplateObj.batchUpdate(SQL_INSERT, studentList, batchSize, new ParameterizedPreparedStatementSetter<Student>() {
+            @Override
+            public void setValues(PreparedStatement ps, Student student) throws SQLException {
+
+                ps.setString(1,student.getSname());
+                ps.setString(2,student.getScontact().toString());
+            }
+        });
+        return new int[0][];
+    }
+
+
+    @Override
+    public int[] objectBatchAddStudents(List<Student> students) {
+        return new int[0];
+    }
+
     @Override
     public int updateStudent(Student student) {
 
@@ -147,17 +172,17 @@ public class StudentJdbcTemplate implements StudentDAO {
       restriction on batch size
      */
 
-    public int[][] restrictedBatchSizedUpdateStudents(List<Student> studentList,int batchSize){
+    public int[][] multipleBatchesUpdateStudents(List<Student> studentList,int batchSize){
 
         String SQL="update student set name=?,contact=? where id=?";
 
         int updateCount[][]=jdbctemplateObj.batchUpdate(SQL, studentList, batchSize, new ParameterizedPreparedStatementSetter<Student>() {
             @Override
-            public void setValues(PreparedStatement ps, Student argument) throws SQLException {
+            public void setValues(PreparedStatement ps, Student student) throws SQLException {
 
-                ps.setString(1,argument.getSname());
-                ps.setString(2,argument.getScontact().toString());
-                ps.setInt(3,argument.getSid());
+                ps.setString(1,student.getSname());
+                ps.setString(2,student.getScontact().toString());
+                ps.setInt(3,student.getSid());
             }
         });
 
@@ -178,5 +203,13 @@ public class StudentJdbcTemplate implements StudentDAO {
         return new int[0];
     }
 
+
+    public int deleteStudent(int studentId){
+
+        String SQL_DELETE="delete from student where id=?";
+        int count = jdbctemplateObj.update(SQL_DELETE, studentId);
+        return count;
+
+    }
 
 }

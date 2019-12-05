@@ -5,20 +5,29 @@ import java.util.Map;
 
 public interface StudentDAO {
 
-     List<Student> getAllStudents();
-     Student getStudent(int studentId);
+    //select
+    List<Student> getAllStudents();
+    Student getStudent(int studentId);
 
-     int addStudent(Student student);
-     int addStudents(List<Student> students);
-     int[] batchAddStudents(List<Student> students);
+    //insert
+    int addStudent(Student student);
+    int addStudents(List<Student> students);
+    int[] batchAddStudents(List<Student> students);
+    int[][] multipleBatchesAddStudents(List<Student> studentList, int batchSize);
+    int[] objectBatchAddStudents(List<Student> students);
 
-     int updateStudent(Student student);
-     int updateStudents(List<Student>  student);
-     int[] batchUpdateStudents(List<Student> students);
-     int[][] restrictedBatchSizedUpdateStudents(List<Student> studentList,int batchSize);
-     int[] objectBatchUpdateStudents(List<Student> students);
+    //update
+    int updateStudent(Student student);
+    int updateStudents(List<Student> student);
+    int[] batchUpdateStudents(List<Student> students);
+    int[][] multipleBatchesUpdateStudents(List<Student> studentList, int batchSize);
+    int[] objectBatchUpdateStudents(List<Student> students);
 
-     Map<String,Object> callProcedure(String proc,Map<String,Object> inputParams);
+    //delete
+    int deleteStudent(int studentId);
+
+    //store procedure
+    Map<String, Object> callProcedure(String proc, Map<String, Object> inputParams);
 
 
 }
