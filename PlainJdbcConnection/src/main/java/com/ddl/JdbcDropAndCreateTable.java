@@ -10,7 +10,7 @@ public class JdbcDropAndCreateTable {
 
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root1234");
 
         Statement stmt = conn.createStatement();
 

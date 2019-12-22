@@ -6,7 +6,7 @@ public class JdbcResultSetDeleteRow {
     public static void main(String[] args) throws SQLException {
 
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root1234");
 
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
 

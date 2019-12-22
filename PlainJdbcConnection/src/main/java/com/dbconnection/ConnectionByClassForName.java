@@ -7,7 +7,7 @@ public class ConnectionByClassForName {
 
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://anurag-X541UAK:3306/testdb", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root1234");
         Statement stmt = conn.createStatement();
 
 

@@ -9,7 +9,7 @@ public class JdbcDropAndCreateDatabase {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost", "root", "root1234");
 
         Statement stmt = conn.createStatement();
         int returnValue;

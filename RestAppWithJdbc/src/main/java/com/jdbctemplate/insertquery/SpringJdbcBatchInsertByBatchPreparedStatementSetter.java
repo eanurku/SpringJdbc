@@ -20,11 +20,11 @@ public class SpringJdbcBatchInsertByBatchPreparedStatementSetter {
         list.add(new Student("xname2", 214L));
 
 
-        int[] count=studentjdbcTemplate.batchAddStudents(list);
+        int[] count = studentjdbcTemplate.batchAddStudents(list);
 
         System.out.println("batch inserts:");
-        for(int i=0;i<count.length;i++)
-        System.out.println(count[i]);
+        for (int i = 0; i < count.length; i++)
+            System.out.println(count[i]);
 
     }
 }

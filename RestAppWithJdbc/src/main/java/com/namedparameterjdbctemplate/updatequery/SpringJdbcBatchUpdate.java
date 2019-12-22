@@ -23,6 +23,7 @@ public class SpringJdbcBatchUpdate {
         int[] count = studentNamedParameterTemplate.objectBatchUpdateStudents(list);
 
         System.out.println("update count:");
+
         for(int i=0;i<count.length;i++){
             System.out.println(count[i]);
         }

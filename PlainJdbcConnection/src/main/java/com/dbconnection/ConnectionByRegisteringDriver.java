@@ -11,7 +11,7 @@ public class ConnectionByRegisteringDriver {
         Driver driver = new com.mysql.cj.jdbc.Driver();
         DriverManager.registerDriver(driver);
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","root","root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","root","root1234");
 
         Statement stmt = conn.createStatement();
 

@@ -7,8 +7,7 @@ public class JdbcResultSetInsertRow {
 
     public static void main(String[] args) throws SQLException, InterruptedException {
 
-
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root1234");
 
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
         ResultSet rs = stmt.executeQuery("select * from Account");

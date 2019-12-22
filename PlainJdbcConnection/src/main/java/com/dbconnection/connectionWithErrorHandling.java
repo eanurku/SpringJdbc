@@ -11,7 +11,7 @@ public class connectionWithErrorHandling {
         Statement stmt=null;
         Connection conn=null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root1234");
             stmt = conn.createStatement();
 
 

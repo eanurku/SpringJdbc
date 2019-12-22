@@ -20,7 +20,11 @@ public class SpringJdbBatchcInsert {
         list.add(new Student("zname3", 5432L));
         list.add(new Student("zname3", 5432L));
 
-        studentNamedParameterTemplate.objectBatchAddStudents(list);
+        int[] count = studentNamedParameterTemplate.objectBatchAddStudents(list);
 
+        System.out.println("insert count:");
+        for(int i=0;i<count.length;i++){
+            System.out.println(count[i]);
+        }
     }
 }

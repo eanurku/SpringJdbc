@@ -23,12 +23,12 @@ public class JdbcPrepareStmtHandlesLargeData {
 //        foutputstream.flush();
 
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "root1234");
         int val=createTableForData(conn);
         System.out.println("table created="+val);
 
 
-                PreparedStatement pstmt = conn.prepareStatement("insert into DataTable set id=?,data=?");
+        PreparedStatement pstmt = conn.prepareStatement("insert into DataTable set id=?,data=?");
 
         pstmt.setInt(1, 120);
         pstmt.setAsciiStream(2, finputstream);
@@ -45,8 +45,6 @@ public class JdbcPrepareStmtHandlesLargeData {
             }
 
         }
-
-
     }
 
     static int createTableForData(Connection conn) throws SQLException {

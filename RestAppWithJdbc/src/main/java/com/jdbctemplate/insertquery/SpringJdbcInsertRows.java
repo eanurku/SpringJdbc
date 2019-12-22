@@ -20,7 +20,7 @@ public class SpringJdbcInsertRows {
         list.add(new Student("xname2", 214L));
 
         int count = studentjdbcTemplate.addStudents(list);
-        System.out.println("inserted rows:"+count);
+        System.out.println("inserted rows:" + count);
 
 
     }

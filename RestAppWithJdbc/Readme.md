@@ -1,9 +1,29 @@
-1.mysql setup
-2.ant setup
-    run mainclass with  command like this :
+1.setup the mysql database in local/remote system:
+https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/#apt-repo-setup
+
+2. add mysql jdbc connector jar in classpath:
+  mysql-connector-java-8.0.18.jar
+  download jar from https://www.mysql.com/products/connector/ 
+
+add other Jars.
+//TO DO
+
+3.ant setup
+   see readme.md in https://github.com/eanurku/AntBasics 
+   
+4. run main class by ant: 
+
     ant run -Dmainclass=com.jdbctemplate.selectquery.SpringJdbcGetAllStudent 
 
-3.json/xml format for GET/POST/PUT request.
+5.
+to get Rest service up and running ,run below command:
+ant  install
+
+to uninstall previous war and install latest war in tomcat:
+ant uninstall install
+
+--------------------------------------------------------------------
+json/xml format for GET/POST/PUT request.
 
 put request:
 header:
