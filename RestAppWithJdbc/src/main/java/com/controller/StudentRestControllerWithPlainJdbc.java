@@ -44,7 +44,7 @@ public class StudentRestControllerWithPlainJdbc {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb","root","root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb","root","root1234");
         Statement stmt = conn.createStatement();
         stmt.executeUpdate("insert into student set name="+"\""+student.getSname()+"\""+",contact="+"\""+student.getScontact()+"\"");
         conn.close();
@@ -61,7 +61,7 @@ public class StudentRestControllerWithPlainJdbc {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb","root","root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb","root","root1234");
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery("select * from student where name="+"\""+sname+"\"");
 

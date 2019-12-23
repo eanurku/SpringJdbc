@@ -3,40 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="518b148e-33c5-4f44-a07c-8064aaa9e022" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckIfDriverSupportBatchProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/batchprocessing/JdbcCheckIfDriverSupportBatchProcessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByClassForName.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByClassForName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByRegisteringDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/ConnectionByRegisteringDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionWithErrorHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/dbconnection/connectionWithErrorHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/ddl/JdbcDropAndCreateTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetDeleteRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetDeleteRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetInsertRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetInsertRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetUpdateRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/resultset/JdbcResultSetUpdateRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/streaming/JdbcPrepareStmtHandlesLargeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/JdbcConnectionAutoCommitFalse.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlainJdbcConnection/src/main/java/com/transaction/JdbcConnectionAutoCommitFalse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/MvcAppWithJdbc.war" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/MvcAppWithJdbc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/MainDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/controller/StudentRestControllerWithJdbcTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/dao/StudentJdbcTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/datasource/SpringJdbcDataSourceSetup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/insertquery/InsertStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/selectquery/GetStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/storeprocedure/SimpleJdbcCallDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/dist/classes/com/updatequery/UpdateStudentsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/dao/StudentJdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsertByBatchPreparedStatementSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcBatchInsertByBatchPreparedStatementSetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRows.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcInsertRows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcMultiBatchInsertByParameterizedPreparedStatementSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/jdbctemplate/insertquery/SpringJdbcMultiBatchInsertByParameterizedPreparedStatementSetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/insertquery/SpringJdbBatchcInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/insertquery/SpringJdbBatchcInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/updatequery/SpringJdbcBatchUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/namedparameterjdbctemplate/updatequery/SpringJdbcBatchUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/webapp/spring-dispatch-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithPlainJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAppWithJdbc/src/main/java/com/controller/StudentRestControllerWithPlainJdbc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,11 +132,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringJdbcMultiBatchInsertByParameterizedPreparedStatementSetter" />
-      <item itemvalue="Application.SpringJdbcBatchInsertByBatchPreparedStatementSetter" />
-      <item itemvalue="Application.SpringJdbcMultiBatchUpdateByParameterizedPreparedStatementSetter" />
       <item itemvalue="Application.SpringJdbBatchcInsert" />
+      <item itemvalue="Application.SpringJdbcBatchInsertByBatchPreparedStatementSetter" />
       <item itemvalue="Application.SpringJdbcBatchUpdate" />
+      <item itemvalue="Application.SpringJdbcMultiBatchInsertByParameterizedPreparedStatementSetter" />
+      <item itemvalue="Application.SpringJdbcMultiBatchUpdateByParameterizedPreparedStatementSetter" />
     </list>
     <recent_temporary>
       <list>
@@ -206,30 +174,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1807" height="318" key="GridCell.Tab.0.bottom" timestamp="1577038390920">
+    <state width="1807" height="318" key="GridCell.Tab.0.bottom" timestamp="1577043517259">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="318" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577038390920" />
-    <state width="1807" height="318" key="GridCell.Tab.0.center" timestamp="1577038390919">
+    <state width="1807" height="318" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577043517259" />
+    <state width="1807" height="318" key="GridCell.Tab.0.center" timestamp="1577043517258">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="318" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577038390919" />
-    <state width="1807" height="318" key="GridCell.Tab.0.left" timestamp="1577038390919">
+    <state width="1807" height="318" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577043517258" />
+    <state width="1807" height="318" key="GridCell.Tab.0.left" timestamp="1577043517258">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="318" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577038390919" />
-    <state width="1807" height="318" key="GridCell.Tab.0.right" timestamp="1577038390919">
+    <state width="1807" height="318" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577043517258" />
+    <state width="1807" height="318" key="GridCell.Tab.0.right" timestamp="1577043517258">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="318" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577038390919" />
+    <state width="1807" height="318" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577043517258" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1575687173606">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575687173606" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575828980456">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1577070227477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575828980456" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577070227477" />
     <state x="302" y="154" width="1372" height="796" key="new project wizard" timestamp="1575798019912">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
