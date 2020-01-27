@@ -8,7 +8,7 @@ public class JdbcStoreProcWithInParamOnly {
     public static void main(String[] args) {
 
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/testdb", "root", "root1234");
 
             CallableStatement cstmt = conn.prepareCall("call testsign(?)");
 
