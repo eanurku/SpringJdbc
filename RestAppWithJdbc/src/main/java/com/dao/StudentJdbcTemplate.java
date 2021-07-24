@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.ParameterizedPreparedStatementSetter;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcCall;
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import javax.sql.DataSource;
 import java.sql.PreparedStatement;
@@ -13,7 +14,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-public class StudentJdbcTemplate implements StudentDAO {
+public class StudentJdbcTemplate extends JdbcDaoSupport implements StudentDAO {
 
     DataSource datasourceobj;
     JdbcTemplate jdbctemplateObj;
@@ -22,6 +23,7 @@ public class StudentJdbcTemplate implements StudentDAO {
 
         this.datasourceobj = datasource;
         jdbctemplateObj = new JdbcTemplate(datasource);
+        setDataSource(datasource);
     }
 
     public DataSource getDatasourceobj() {
@@ -36,7 +38,7 @@ public class StudentJdbcTemplate implements StudentDAO {
     public List<Student> getAllStudents() {
 
         String SQL = "select * from student";
-        List<Student> list = jdbctemplateObj.query(SQL, new StudentMapper());
+        List<Student> list = getJdbcTemplate().query(SQL, new StudentMapper());
         return list;
     }
 
